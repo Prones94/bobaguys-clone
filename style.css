@@ -1,0 +1,157 @@
+.container-fluid {
+    padding: 0;
+}
+.announcements {
+    margin: 0;
+    padding: 8px 0;
+    text-align: center;
+    background-color: black;
+}
+.announcements a {
+    text-decoration: none;
+}
+
+img {
+    width: 305px;
+    float: left;
+    margin-left: 10px;
+}
+.jumbotron {
+    background-image: url(https://static1.squarespace.com/static/50ce46ece4b01020c34fd52b/t/5276a60ce4b094d525e0c768/1572200107353/);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    margin-bottom:10px;
+    border-bottom: 2px solid #f1f1f1;
+}
+#id {
+    text-align: center;
+}
+.navbar-nav {
+    padding-left: 100px;
+    align-items: center;
+    justify-items: center;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#first-row {
+    margin-bottom: 10px;
+}
+.large-image {
+    margin-bottom: 30px;
+}
+.block {
+    margin: 10px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+a.imgLink {
+    color: black;
+    text-decoration: none;
+}
+.mini {
+    width: 170px;
+    height: 200px;
+    margin: 5px;
+    /* position: relative; */
+}
+.follow-ig {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f1f1f1;
+}
+#ig {
+    width: 200px;
+    align-items: center;
+    
+}
+.row-quote {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+blockquote {
+    font-family: 'EB Garamond', serif;
+    font-size: 21px;
+    font-style: italic;
+    line-height: 1.6em;
+    text-align: left;
+    letter-spacing: 0px;
+    font-weight: 300px;
+}
+blockquote footer {
+    text-align: right;
+}
+.insert-quotes {
+    padding-top: 35px;
+    padding-bottom: 18px;
+    border-bottom: 2px solid #f1f1f1;
+}
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    justify-content: center;
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 12px;
+    list-style: none;
+    margin: 20px;
+   
+}
+.footer-links a {
+    color: black;
+    margin: 18px;
+    text-decoration: none;
+}
+.footer-nav {
+    border-bottom: 2px solid #f1f1f1;
+}
+#nav-footer {
+    margin-bottom: 17px;
+}
+footer {
+    align-items: center;
+    display: block;
+}
+.footer p{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    align-items: center;
+    margin-top: 50px;
+}
+.font-awesome {
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+    float: right;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.font-awesome li {
+    margin:5px
+}
+
+/* 
+
+
+
+div:nth-child(3)
+
+<div class="d-flex flex-row">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+
+<!-- responsive variations -->
+<div class="d-flex flex-sm-row">...</div>
+<div class="d-flex flex-md-row">...</div>
+<div class="d-flex flex-lg-row">...</div>
+<div class="d-flex flex-xl-row">...</div> */
