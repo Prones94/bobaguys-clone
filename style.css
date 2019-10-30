@@ -23,15 +23,18 @@ img {
     background-size: contain;
     background-color: transparent;
     margin-bottom:10px;
-    border-bottom: 2px solid #f1f1f1;
+    
 }
 #id {
     text-align: center;
 }
+#nav {
+    border-top:  2px solid #f1f1f1;
+}
 .navbar-nav {
     padding-left: 100px;
-    align-items: center;
-    justify-items: center;
+    margin-left: 17%;
+
 }
 .row {
     display: flex;
